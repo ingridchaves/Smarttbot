@@ -13,9 +13,82 @@
 			border: 0;
 			width: 98pt;
 			height: 40pt;
+			margin-bottom: 25pt;
+
+		}
+		.bt-experiencia :hover {
+			background-color: #00A59D;
+			color: #fff;
+		}
+
+		.temp-retorno-usuario button {
+			background-color: #F5F5F5;
+			color: #B5B5B5;
+			border-radius: 	4pt;
+			border: 0;
+			width: 98pt;
+			height: 40pt;			
+			margin-bottom: 25pt;
+
+		}
+
+		.bt-temp :hover {
+			background-color: #00A59D;
+			color: #fff;
+		}
+
+		.msg-apresenta {
+			font-size: 15pt;
+			color: #00A59D;
+			margin-top: 25pt;
 
 		}
 		
+		.detalhes-apresenta {
+			color: #B4B4B4;
+			font-size: 12pt;
+			text-align: left;
+		}
+
+		.box-conteudo i {
+			color: #00A59D;
+		}
+
+		.nome-usuario {
+			border-bottom: 1pt solid;
+			border-color: #00A59D;
+			padding-bottom: 5px;
+			margin-bottom: 35pt;
+		}
+		.box-conteudo input {
+			border: 0;
+			color: #CDCDCD;
+			font-size: 14pt;	
+			margin-left: 20pt;
+		}
+
+		.info-usuario {
+			color: #7F7F7F;
+		}
+		.perg-invest i {
+			margin-right: 8pt;
+
+		}
+
+		.perg-temp i{
+			margin-right: 8pt;
+
+		}
+
+		.encontrar-robo button {
+			width: 100%;
+			background-color: #F5F5F5;
+			border-radius: 16pt;
+			height: 40pt;
+			border: 2pt solid;
+			border-color: #00A59D;
+
+		}
 	</style>
 </head>
 
@@ -51,9 +124,11 @@
 				</div>
 				<div class="experiencia-usuario">
 					<p class="perg-experiencia"> Qual é o seu nível de experiência no mercado de ações?</p>
-					<button class="iniciante"> Iniciante</button>
-					<button class="intermediario"> Intermediário</button>						
-					<button class="avancado">Avançado </button>
+					<div class="bt-experiencia">
+						<button class="iniciante"> Iniciante</button>
+						<button class="intermediario"> Intermediário</button>						
+						<button class="avancado">Avançado </button>
+					</div>
 				</div>
 				<div class="invest-usuario">
 					<p class="perg-invest"><i class="fa fa-tag" aria-hidden="true"></i>Quanto você quer começar investindo?</p>	
@@ -61,9 +136,11 @@
 				</div>
 				<div class="temp-retorno-usuario">
 					<p class="perg-temp"><i class="fa fa-clock-o" aria-hidden="true"></i> Qual é o prazo de retorno que você espera?</p>
-					<button class="curto">Curto</button>
-					<button class="medio">Medio</button>						
-					<button class="longo">Longo </button>
+						<div class="bt-temp">
+							<button class="curto">Curto</button>
+							<button class="medio">Medio</button>						
+							<button class="longo">Longo </button>
+						</div>
 				</div>
 				<div class="encontrar-robo">
 					<button>ENCONTRAR MEU ROBÔ!</button>
