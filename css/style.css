@@ -42,7 +42,7 @@ html, body,h1 {
 			font-size: 10pt;
 		}
 
-		.box-conteudo {
+		.box-conteudo-login, .box-conteudo-entrada {
 			width: 500px;
 		}
 
