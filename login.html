@@ -4,7 +4,7 @@
 	<title>SmarttBot | Robôs Investidores</title>
 	<meta charset="utf-8"/>
 	<style>
-		html, body {
+		html, body,h1 {
 			margin: 0;
 		}
 		header {
@@ -20,7 +20,7 @@
 			padding-left: 14px;
 			padding-bottom: 19px;
 			padding-right: 14px;
-			font-family: arial;
+			
 		}
 		.canto-superior {
 			width: 100px;
@@ -32,29 +32,52 @@
 			color: #cdcdcd;
 		}
 		.conteudo {
-			padding-right: 43px;
-			padding-left: 44px;
+			justify-content: center;
+			display: flex;
+			font-family: Arial, Helvetica, sans-serif;
 		}
-		.recep-investidor h2 {
+		.n2 {
 			color: #7f7f7f;
+			font-size: 16pt;
+			margin-top: 50pt;
 		}
 		.recep-investidor h1 {
 			color: #00A59D;
 		}
-		.recep-investidor h5 {
+		.n5 {
 			color: #B4B4B4;
+			font-size: 12pt;
 		}
 		.loja {
 			color: #b5b5b5;
+			font-size: 10pt;
 		}
 		.cadastro input {
 			background-color: #fff;
 			color: #00A59D;
 			margin: 5px;
 			border: 2px solid;
-			height: 50px;
-			width: 50%;
+			height: 50pt;
+			width: 100%;
+			padding-left: 20px;
 		}
+		.bt-enviar button {
+			background-color: #00A59D;
+			height: 50pt;
+			width: 100%;
+			border: 0;
+			border-radius: 4px;
+			font-size: 14pt;
+			margin-left: 20px;
+			margin-top: 20px;
+			flex-shrink: 1;
+			}
+	
+		.fa-arrow-right:before {
+ 
+   			color: white;
+		}
+	
 
 
 	</style>
@@ -76,24 +99,32 @@
 				<i class="fa fa-bell" aria-hidden="true"></i>
 			</div>
 		</div>
-	</header>
+	</header>	
 	<div class="conteudo">
-		<div class="loja">
-			<h5> Loja de Estrátegias</h5>	
-		</div>
-		<div class="recep-investidor">
-			<h2> E aí , </h2>
-			<h1> Vamos começar a investir?</h1>
-			<h5>Ótima escolha! Crie uma conta agora para começar sua estratégia de investimento.</h5>
-		</div>
-		<div class="cadastro">
-			<form action="" method="post" name="login" class="log-usuario"><br>
-			<input type="text" name="nome" placeholder="Nome completo"><br>
-			<input type="text" name="nome" placeholder="Email"><br>
-			<input type="password" name="senha" size="9" placeholder="senha">
-			</form>
-		</div>
+		<div class="box-conteudo">
+
 		
+			<div class="loja">
+				<p class="n5"> Loja de Estrátegias</p>	
+			</div>
+			<div class="recep-investidor">
+				<p class="n2"> E aí , </p>
+				<h1> Vamos começar a investir?</h1>
+				<p class="n5">Ótima escolha! Crie uma conta agora para começar sua estratégia de investimento.</p>
+			</div>
+			<div class="cadastro">
+				<form action="" method="post" name="login" class="log-usuario"><br>
+				<input type="text" name="nome" placeholder="Nome completo"><br>
+				<input type="text" name="nome" placeholder="Email"><br>
+				<input type="password" name="senha" size="9" placeholder="senha"><br>
+				
+			</div>
+			<div class="bt-enviar">
+				<button><i class="fa fa-arrow-right" aria-hidden="true"></i> </button>
+			</div>
+		</div>
+
+
 		
 
 
