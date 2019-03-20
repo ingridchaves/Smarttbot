@@ -44,7 +44,8 @@ header {
 }
 
 .box-conteudo-login,
-.box-conteudo-entrada {
+.box-conteudo-entrada,
+.box-conteudo-perfil-robo-1 {
   width: 40vw;
 }
 
@@ -82,7 +83,7 @@ footer p {
       border-left: 1.5pt solid;
       border-right: 1.5pt solid;
       border-bottom: 1.5pt solid;
-      padding: 5pt;
+      padding: 9.5pt;
       border-color: #00A59D;
       position: relative;
     }
@@ -97,8 +98,6 @@ footer p {
       border-right: 20px solid transparent;
       border-top: 10px solid transparent;
       border-bottom: 10px solid transparent;
-    
-      bottom: 4px;
       left: 100%;
 
     }
@@ -117,4 +116,45 @@ footer p {
     .blog {
       margin-left: 4pt;
 
+    }
+    .saidas{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 45pt;
+    }
+    .chamada-comparacao {
+      color: #00A59D;
+      font-size: 25pt;
+
+    }
+
+    .heart-circle{
+      height: 13.04pt;
+      width: 13.04pt;
+      margin-right: 4pt;
+    }
+    .fa-arrow-circle-o-left:before {
+        content: "\f190";
+         margin-right: 4pt;
+    }
+    .match-saidas{
+      color: #E28F94;
+    }
+    .menu-saidas {
+      color: #00A59D;
+    }
+    .menu-saidas i{
+      font-size: 13.3pt;
+    }
+    .match img{
+      height: 20pt;
+    }
+    .match {
+      display: flex;
+      align-items: center;
+      color: #E28F94;
+      border: 1.5pt solid;
+      border-color: #b5b5b5;
+      padding: 8pt;
+      border-radius: 3pt;
     }
