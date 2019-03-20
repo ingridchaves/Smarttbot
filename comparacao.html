@@ -39,7 +39,7 @@
 			display: flex;
 			justify-content: space-between;
 			border-bottom: 1pt solid;
-			border-color: #707070;
+			border-color: #B5B5B5;
 			color: #7F7F7F;
 			padding-bottom: 10pt;
 			padding-top: 10pt;
@@ -48,13 +48,16 @@
 
 		.titulo-nome, .titulo-autor, .titulo-papel, .titulo-risco, .titulo-retorno, .titulo-garantia, .titulo-operacao, .titulo-frequencia, .titulo-preco {
 			padding-left: 8pt;
+			
 		}
+
 		.nome1-robo, .nome2-robo, .nome-3-robo, .autor1-robo, .autor2-robo, .autor3-robo, .papel1-robo, .papel2-robo, .papel3-robo, .risco1-robo, .risco2-robo, .risco3-robo, .retorno1-robo, .retorno2-robo, .retorno3-robo, .garantia1-robo, .garantia2-robo, .garantia3-robo, .operacao1-robo, .operacao2-robo, .operacao3-robo, .frequencia1-robo, .frequencia2-robo, .frequencia3-robo, .preco1-robo, .preco2-robo, .preco3-robo, .titulo-nome, .titulo-autor, .titulo-papel, .titulo-risco, .titulo-retorno, .titulo-garantia, .titulo-operacao, .titulo-frequencia, .titulo-preco {
 			width: 20%;
 		}
 
 		.nome1-robo, .nome2-robo, .nome-3-robo, .autor1-robo, .autor2-robo, .autor3-robo, .papel1-robo, .papel2-robo, .papel3-robo, .risco1-robo, .risco2-robo, .risco3-robo, .retorno1-robo, .retorno2-robo, .retorno3-robo, .garantia1-robo, .garantia2-robo, .garantia3-robo, .operacao1-robo, .operacao2-robo, .operacao3-robo, .frequencia1-robo, .frequencia2-robo, .frequencia3-robo, .preco1-robo, .preco2-robo, .preco3-robo{
 			text-align: center;
+			font-style: italic;
 		}
 
 		.garantia-robo i{
@@ -64,6 +67,43 @@
 
 		.preco1-robo, .preco2-robo, .preco3-robo, {
 			color: #00A59D;
+
+		}
+		.robolfo, .robolene {
+			width: 58pt;
+		}
+		.cabecalho-comparacao {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 17pt;
+
+		}
+		.selecionar-parametro-robos, .robo1-comparacao, .robo2-comparacao, .adicionar-comparacao {
+			width: 20%;
+			text-align: center;
+			
+		}
+		.selecionar-parametro-robos {
+		    display: flex;
+		    flex-direction: column;
+		}
+
+		.fa-plus-circle:before {
+  		  content: "\f055";
+  		  font-size: 60pt;
+  		  color: #00A59D;
+		}
+
+		.selecionar-parametro-robos {
+			justify-content: space-around;
+
+		}
+		.box-conteudo-comparacao select {
+			border-radius: 2pt;
+			border-color: #B5B5B5;
+			background-color: #fff;
+			color: #B5B5B5;
+			height: 19.57pt;
 
 		}
 
@@ -103,16 +143,18 @@
 			<div class="cabecalho-comparacao">
 				<div class="selecionar-parametro-robos">
 					<select class="parametro-comparacao" name="parametro">
+							<option value="param">Selecione parâmetros</option>
 							<option value="param1">param1</option>
 							<option value="param2">param2</option>
 					</select>
 					<select name="robos">
-							<option>Rodolfo</option>
+							<option>Selecione Robôs</option>
+							<option>Robolfo</option>
 							<option>Robolene</option>
 					</select>
 				</div>
-				<div class="robo1-comparacao"><img src=""></div>
-				<div class="robo2-comparacao"><img src=""></div>
+				<div class="robo1-comparacao"><img class= "robolfo" src="img/robot-2.svg"></div>
+				<div class="robo2-comparacao"><img class="robolene" src="img/blue-robot.jpg"></div>
 				<div class="adicionar-comparacao"><i class="fa fa-plus-circle" aria-hidden="true"></i></div>
 				
 			</div>
@@ -171,6 +213,10 @@
 				<div class="preco3-robo"> </div> 
 				
 				</div>
+		<div class="posso-ajudar">
+			<div class="texto-ajuda"></div>
+			<div class="img-ajuda"></div>
+		</div>
 
 
 
