@@ -20,6 +20,11 @@
 		.heart-circle{
 			height: 13.04pt;
 			width: 13.04pt;
+			margin-right: 4pt;
+		}
+		.fa-arrow-circle-o-left:before {
+    		content: "\f190";
+   			 margin-right: 4pt;
 		}
 		.match-saidas{
 			color: #E28F94;
@@ -65,8 +70,9 @@
 			font-size: 14.25pt;
 		}
 
-		.preco1-robo, .preco2-robo, .preco3-robo, {
+		.preco1-robo, .preco2-robo, .preco3-robo {
 			color: #00A59D;
+			font-weight: bold;
 
 		}
 		.robolfo, .robolene {
@@ -104,6 +110,58 @@
 			background-color: #fff;
 			color: #B5B5B5;
 			height: 19.57pt;
+
+		}
+		.posso-ajudar {
+			display: flex;;
+			justify-content: flex-end;
+			width: 100%;
+			align-items: center;
+			margin-top: 20pt;
+		}
+		.img-ajuda {
+			width: 37pt;
+			margin-left: 20pt;
+		}
+		.texto-ajuda {
+			border-top: 1.5pt solid;
+			border-left: 1.5pt solid;
+			border-right: 1.5pt solid;
+			border-bottom: 1.5pt solid;
+			padding: 5pt;
+			border-color: #00A59D;
+			position: relative;
+		}
+		.texto-ajuda:after {
+			content: "";
+			width: 0;
+			height: 0;
+
+			position: absolute;
+
+			border-left: 20px solid #00A59D ;
+			border-right: 20px solid transparent;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+		
+			bottom: 4px;
+			left: 100%;
+
+		}
+		.conteudo-extra {
+			display: flex;
+			justify-content: center;
+			color: #7F7F7F;
+			margin-top: 30pt;
+
+		}
+		.mat-edu {
+			border-right: 1pt solid;
+			border-color: #707070;
+			padding-right: 4pt;
+		}
+		.blog {
+			margin-left: 4pt;
 
 		}
 
@@ -214,8 +272,13 @@
 				
 				</div>
 		<div class="posso-ajudar">
-			<div class="texto-ajuda"></div>
-			<div class="img-ajuda"></div>
+			<div class="texto-ajuda"> Posso ajudar?</div>
+			<div class="img-ajuda"><img src="img/robot.svg"></div>
+		</div>
+		<div class="conteudo-extra">
+			<div class="mat-edu"> Materiais educativos</div>
+			<div class="blog"> Smarttbot Blog</div>
+			
 		</div>
 
 
