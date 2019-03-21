@@ -15,8 +15,13 @@
       href="font-awesome-4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" href="css/matchs1.css" />
-
-    <style></style>
+    <script>
+      $(document).ready(function() {
+        $('.compra-button').click(function() {
+          $('.alert').show();
+        });
+      });
+    </script>
   </head>
 
   <body>
@@ -94,9 +99,9 @@
             <div class="descricao">
               <p>
                 Olá! Sou um robô que executa uma estratégia de investimento com
-                baixa frequência de operação e um prazo de retorno longo, mas
-                com baixo risco. Meu papel negociável é o Dolar Cheio e possuo
-                um desempenho acima da média.
+                <b>BAIXA</b> frequência de operação e um prazo de retorno
+                <b>LONGO</b>, mas com <b>BAIXO RISCO</b>. Meu papel negociável é
+                o <b>DÓLAR CHEIO</b> e possuo um desempenho acima da média.
               </p>
               <div class="card-wrap">
                 <div class="card">
@@ -132,7 +137,7 @@
             <div class="topo">
               <div class="first-two">
                 <div class="circle">
-                  <img src="./img/robo1.png" alt="" />
+                  <img src="./img/robo2.png" alt="" />
                 </div>
                 <div class="caracteristicas">
                   <p class="name">Eva</p>
@@ -141,15 +146,15 @@
               </div>
               <div class="stats">
                 <div class="stats-row">
-                  <p>250</p>
+                  <p>101</p>
                   <img src="./img/like.svg" alt="" />
                 </div>
                 <div class="stats-row">
-                  <p>780</p>
+                  <p>324</p>
                   <img src="./img/user.svg" alt="" />
                 </div>
                 <div class="stats-row">
-                  <p>1.853</p>
+                  <p>798</p>
                   <img src="./img/random.svg" alt="" />
                 </div>
               </div>
@@ -157,9 +162,10 @@
             <div class="descricao">
               <p>
                 Olá! Sou um robô que executa uma estratégia de investimento com
-                baixa frequência de operação e um prazo de retorno longo, mas
-                com baixo risco. Meu papel negociável é o Dolar Cheio e possuo
-                um desempenho acima da média.
+                <b> ALTA</b> frequência de operação e um prazo de retorno
+                <b> CURTO</b>, com risco mais <b>ELEVADO</b>. Meu papel
+                negociável é o <b>MINI-ÍNDICE</b> e possuo um desempenho acima
+                da média.
               </p>
               <div class="card-wrap">
                 <div class="card">
@@ -168,11 +174,11 @@
                 </div>
                 <div class="card">
                   <p>Risco<br /></p>
-                  <p class="risco">BAIXO</p>
+                  <p class="risco">ALTO</p>
                 </div>
                 <div class="card">
                   <p>Prazo de retorno<br /></p>
-                  <p class="tempo">2 MESES</p>
+                  <p class="tempo">2 SEMANAS</p>
                 </div>
               </div>
             </div>
@@ -180,75 +186,13 @@
               <div class="desempenho">
                 <p>Desempenho passado:</p>
                 <img src="./img/stars-copied.png" alt="" />
-                <p class="name">R$ 199,00 / mês</p>
+                <p class="name">R$ 250,00 / mês</p>
                 <p class="compare">Compare esta estratégia</p>
               </div>
-              <div class="icons">
-                <img src="./img/error.svg" alt="" />
-                <img src="./img/heart.svg" alt="" />
-                <img src="./img/plus-2.svg" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="topo">
-              <div class="first-two">
-                <div class="circle">
-                  <img src="./img/robo1.png" alt="" />
-                </div>
-                <div class="caracteristicas">
-                  <p class="name">Wall-E</p>
-                  <p class="autor">Autor: SmarttBot</p>
-                </div>
-              </div>
-              <div class="stats">
-                <div class="stats-row">
-                  <p>250</p>
-                  <img src="./img/like.svg" alt="" />
-                </div>
-                <div class="stats-row">
-                  <p>780</p>
-                  <img src="./img/user.svg" alt="" />
-                </div>
-                <div class="stats-row">
-                  <p>1.853</p>
-                  <img src="./img/random.svg" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="descricao">
-              <p>
-                Olá! Sou um robô que executa uma estratégia de investimento com
-                baixa frequência de operação e um prazo de retorno longo, mas
-                com baixo risco. Meu papel negociável é o Dolar Cheio e possuo
-                um desempenho acima da média.
-              </p>
-              <div class="card-wrap">
-                <div class="card">
-                  <p>Tempo de operação <br /></p>
-                  <p class="tempo">DAYTRADE</p>
-                </div>
-                <div class="card">
-                  <p>Risco<br /></p>
-                  <p class="risco">BAIXO</p>
-                </div>
-                <div class="card">
-                  <p>Prazo de retorno<br /></p>
-                  <p class="tempo">2 MESES</p>
-                </div>
-              </div>
-            </div>
-            <div class="botoes">
-              <div class="desempenho">
-                <p>Desempenho passado:</p>
-                <img src="./img/stars-copied.png" alt="" />
-                <p class="name">R$ 199,00 / mês</p>
-                <p class="compare">Compare esta estratégia</p>
-              </div>
-              <div class="icons">
-                <img src="./img/error.svg" alt="" />
-                <img src="./img/heart.svg" alt="" />
+              <div class="icons icons-eva">
+                <button class="match-button match">
+                  <img src="./img/heart.svg" alt="" /> Match!
+                </button>
                 <img src="./img/plus-2.svg" alt="" />
               </div>
             </div>
@@ -265,11 +209,53 @@
         </a>
       </div>
     </div>
+
     <div class="match-compra">
       <button class="match-button">
         <img src="./img/heart.svg" alt="" /> Seus Matches
       </button>
-      <button class="compra-button">Comprar Estratégia</button>
+      <button
+        class="compra-button btn btn-info btn-lg"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
+        Comprar Estratégia
+      </button>
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="modal-img" src="./img/exclamation.png" alt="" />
+              <h4 class="modal-title">
+                Alerta de Responsabilidade!
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Ao prosseguir para a compra, alertamos que a SmarttBot não
+                assume quaisquer riscos ou perdas que porventura venham a
+                ocorrer. O serviço prestado garante apenas o funcionamento das
+                tecnologias e os envios das ordens realizadas pelos robôs. O
+                investidor é inteiramente responsável pela escolha da estratégia
+                e pela forma que irá aplicá-la.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="conteudo-extra">
