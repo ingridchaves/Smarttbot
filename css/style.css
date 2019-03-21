@@ -45,8 +45,12 @@ header {
 
 .box-conteudo-login,
 .box-conteudo-entrada,
-.box-conteudo-perfil-robo-1 {
+ {
   width: 40vw;
+}
+
+.box-conteudo-perfil-robo-1 {
+  width: 60vw;
 }
 
 footer {

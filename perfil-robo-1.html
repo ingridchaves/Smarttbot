@@ -15,6 +15,120 @@
 			margin-top: 10pt;
 			font-size: 14pt;
 		}
+		.foto-perfil {
+			height: 99pt;	
+		}
+		.box-perfil-robo {
+			border: 1pt solid;
+			border-color: #E9E9E9;
+			padding: 6pt;
+			margin-right: 6pt;
+			margin-left: 6pt;
+		}
+		.inf-principal-robo{
+			display: flex;
+		}
+		.match-robo-img, .inscritos-img, .status-img {
+			height: 8.5pt;
+		}
+		.resumo-robo{
+			display: flex;
+			justify-content: space-between;
+		}
+		.img-perfil{
+			margin-right: 9pt;
+
+		}
+		.nome-robo-autor{
+			justify-content: space-around;
+    		flex-direction: column;
+    		display: flex;
+		}
+		.nome-robo {
+   		 color: #00A59D;
+    	font-size: 22pt;
+    	}
+    	.nome-autor {
+    		color: #7F7F7F;
+    		opacity: 0.7;
+    	}
+    	.txt-apresentacao{
+    		color: rgba(180, 180, 180, 1);
+    		margin-top: 7pt;
+    	}
+
+    	.icones{
+    		color: rgba(127, 127, 127, 1);
+    		text-align: right;
+    	}
+    	.robo-esquerda, .robo-direita{
+    		width: 16pt;
+    		background-color: #F5F5F5;
+    	}
+    	.opcao-robo{
+    		display: flex;
+    	}
+    	.info-robo{
+    		display: flex;
+    		justify-content: space-around;
+    		height: 46.7pt;
+    		margin-top: 18pt;
+    	}
+    	.question{
+    		text-align: right;
+    	}
+    	.tempo-info, .risco-info, .prazo-info{
+    		width: 20%;
+    		background-color: rgba(0, 165, 157, 0.23);
+    		color: #7F7F7F;
+    		text-align: center;
+    		border-radius: 8pt;
+    		padding: 3pt;
+    	}
+    	.papel-info{
+    		width: 15%;
+    		color: rgba(127, 127, 127, 1)
+    	}
+    	.titulo-info-papel, .titulo-info-tempo, .titulo-info-risco, .titulo-info-tempo{
+    		font-size: 7pt;
+    	}
+    	.tipo-papel, .tipo-tempo, .tipo-risco, .tipo-tempo {
+    		font-size: 12pt;
+    	}
+    	.primeira-papel{
+    		display: flex;
+    		align-items: center;
+    		justify-content: space-between;
+    	}
+    	.tutorial{
+    		background-color: rgba(233, 233, 233, 1);
+    		margin-top: 18.38pt;
+    		display: flex;
+    		justify-content: space-around;
+    		padding-left: 12.28pt;
+    		padding-top: 22pt;
+    		padding-bottom: 18.5pt; 
+    	}
+    	.cabecalho-tutorial{
+    		display: flex;
+    		justify-content: space-between;
+    	}
+    	.titulo-tutorial {
+    		color: rgba(127, 127, 127, 1);
+    		font-weight: bold;
+    	}
+    	.duracao-tutorial{
+    		color:rgba(0, 165, 157, 1);
+    	}
+    	.descricao-tutorial {
+    		color: rgba(180, 180, 180, 1);
+    		font-size: 10pt;
+    		margin-top: 5pt;
+    	}
+    	.tutorial-info {
+    		padding-left: 10pt;
+    		padding-right: 13.88pt;
+    	}
 	</style>
 </head>
 <body>
@@ -34,7 +148,12 @@
 			</div>
 		</div>
 	</header>	
+
+
 	<div class="conteudo">
+
+		
+
 		<div class="box-conteudo-perfil-robo-1">
 			<div class="loja">
 				<p class="n5"> Loja de Estrátegias</p>	
@@ -43,6 +162,77 @@
 				<div class="menu-saidas"> <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Menu Principal </div>
 				<div class="match-saidas"> </div>
 			</div>
+
+			<div class="opcao-robo">
+				<div class="robo-esquerda"></div>
+				<div class="box-perfil-robo">
+					<div class="inf-principal-robo">
+						<div class="img-perfil"><img class="foto-perfil" src="img/robot-2.svg"></div>
+	 
+						<div class="info-basic">
+							<div class="resumo-robo">
+								<div class="nome-robo-autor">
+									<div class="nome-robo">Roboldo</div>
+									<div class="nome-autor">Autor: Smarttbot</div>
+								</div>
+								<div class="icones">
+									<div class="match-robo">250<img class="match-robo-img" src="img/like.svg"></div>
+									<div class="inscritos">780<img class="inscritos-img" src="img/user.svg"></div>
+									<div class="status">1.853<img class="status-img" src="img/random.svg"></div>
+								</div>
+							</div>
+							<div class="txt-apresentacao">"Olá! Sou um robô que executa uma estratégia de investimento com baixa frequência de operação e um prazo de retorno alto, mas um risco bem baixo"</div>
+						</div>
+					</div>
+					<div class="info-robo">
+						<div class="papel-info">
+							<div class="primeira-papel">
+								<div class="titulo-info-papel"> Papel </div>
+								<div class="question"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+							</div>
+							<div class="tipo-papel"> DÓLAR CHEIO</div>
+						</div>
+						<div class="tempo-info">
+							<div class="question"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+							<div class="titulo-info-tempo">Tempo de operação</div>
+							<div class="tipo-tempo">DAYTRADE</div>
+						</div>
+						<div class="risco-info">
+							<div class="question"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+							<div class="titulo-info-risco">Tempo de operação</div>
+							<div class="tipo-risco">BAIXO</div>
+						</div>
+						<div class="prazo-info">
+							<div class="question"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
+							<div class="titulo-info-tempo">Tempo de operação</div>
+							<div class="tipo-tempo">2 MESES</div>
+						</div>
+
+
+					</div>
+					<div class="tutorial">
+						<div class="video">
+							<img src="img/video.png">
+							
+						</div>
+						<div class="tutorial-info">
+							<div class="cabecalho-tutorial">
+								<div class="titulo-tutorial">Tutorial</div>
+								<div class="duracao-tutorial">16:34</div>
+							</div>
+							<div class="descricao-tutorial">Neste tutorial você irá aprender um pouco mais sobre esse robô, seu funcionamento e como opera-lo. Não deixe de conferir!</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="robo-direita"></div>
+			</div>
+
+			<div class="link-comparacao">
+				<a href="comparacao.html"> Comparar estratégias</a>				
+			</div>
+
 			<div class="opcao-final">
 				<div>
 					<div class="match">
@@ -55,20 +245,46 @@
 					<div class="img-ajuda"><img src="img/robot.svg"></div>
 				</div>
 			</div>
-			<div class="link-comparacao">
-				<a href="comparacao.html"> Comparar estratégias</a>
-				
-			</div>
+
+
+
+
+
+
+
+
+
+			
 			<div class="conteudo-extra">
 				<div class="mat-edu"> Materiais educativos</div>
 				<div class="blog"> Smarttbot Blog</div>
 			</div>
 		</div>
 
+
+
+
+
 	</div>
+
+
+
 		
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
 
 
 	<footer>
