@@ -6,7 +6,98 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style>
+		.chamada-forum{
+			display: flex;
+			justify-content: space-between;
+		}
 		
+		.robo-forum{
+			display: flex;
+		}
+		.bt-forum{
+			display: flex;
+  		 	align-items: center;
+		    text-align: center;
+		}
+		.bt-forum i{
+			color: rgba(0, 165, 157, 1);
+
+		}
+		.info-robo-forum{
+			justify-content: space-around;
+			display: flex;
+			flex-direction: column;
+
+		}
+		.txt-forum{
+			font-size: 28pt;
+			color:#00A59D;
+		}
+		.logo-forum{
+			font-size: 35.74pt;
+		}
+		.nome-robo-forum{
+			font-size: 16pt;
+			color:#00A59D;
+		}
+		.autor-robo-forum{
+			color: rgba(127, 127, 127, 1);
+		}
+		.imagem-robo-forum{
+			width: 50pt;
+		}
+		.forum{
+			background-color: rgba(233, 233, 233, 1);
+			margin-top: 20pt;
+		}
+
+		.box-joana, .box-maria, .box-smarttbot {
+			display: flex;
+			padding-top: 19pt;
+			margin-left: 23pt; 
+			border-bottom: 1px solid;
+			border-color:rgba(112, 112, 112, 0.4);
+		}
+		.foto-perfil-usuario1, .foto-perfil-usuario2, .foto-perfil-usuario3 {
+			width: 20%;
+			font-size: 40pt;
+		}
+		.foto-perfil-usuario1 i{
+			color: rgba(0, 165, 157, 1);
+		}
+		.foto-perfil-usuario2 i{
+			color: rgba(226, 143, 148, 1);
+		}
+		.rb-smarttbot{
+			width: 50pt;
+		}
+		.info-comentarios{
+			display:flex;
+			justify-content: space-between;
+		}
+		.nome-comentario{
+			color: rgba(127, 127, 127, 1);
+			font-size: 14pt;
+			font-weight: bold;
+		}
+		.icones-comentario{
+			display: flex;
+			justify-content: space-around;
+			width: 25%;
+		}
+		.tempo-comentario {
+			color: rgba(127, 127, 127, 1);
+		}
+		.comentario-joana, .comentario-maria{
+			color: rgba(127, 127, 127, 1);
+			font-size: 12pt;
+			text-align: left;
+			margin-top: 16pt;
+			width: 90%;
+		}
+		.box-info-comentario{
+			width: 80%;
+		}
 	</style>
 </head>
 <body>
@@ -39,9 +130,72 @@
 			</div>
 
 			
+			<div class="chamada-forum">
+				<div class="bt-forum">
+					<div class="logo-forum"><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="txt-forum">Fórum</div>
+				</div>
+				<div class="robo-forum">
+					<div class="img-robo-forum"><img class="imagem-robo-forum" src="img/robo1.png"></div>
+					<div class="info-robo-forum">
+						<div class="nome-robo-forum">Robolfo</div>
+						<div class="autor-robo-forum">Smarttbot</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="forum">
+				<div class="box-joana">
+					<div class="foto-perfil-usuario1"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+					<div class="box-info-comentario">
+						<div class="info-comentarios">
+							<div class="nome-comentario">Joana</div>
+							<div class="icones-comentario">
+								<div class="dar-like"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+								<div class="responder-comentario"><i class="fa fa-comments" aria-hidden="true"></i></div>
+								<div class="estrela"><i class="fa fa-star" aria-hidden="true"></i></div>
+								<div class="tempo-comentario">1h</div>
+							</div>
+						</div>
+						<div class="comentario-joana">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</div>
+					</div>
+				</div>
+				<div class="box-maria">
+					<div class="foto-perfil-usuario2"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+					<div class="box-info-comentario">
+						<div class="info-comentarios">
+							<div class="nome-comentario">Maria Clara</div>
+							<div class="icones-comentario">
+								<div class="dar-like"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+								<div class="responder-comentario"><i class="fa fa-comments" aria-hidden="true"></i></div>
+								<div class="estrela"><i class="fa fa-star" aria-hidden="true"></i></div>
+								<div class="tempo-comentario">1h</div>
+							</div>
+						</div>
+						<div class="comentario-joana"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</div>
+					</div>
+				</div>
+				<div class="box-smarttbot">
+					<div class="foto-perfil-usuario3"><img class="rb-smarttbot" src="img/chatbot.png"></div>
+					<div class="box-info-comentario">
+						<div class="info-comentarios">
+							<div class="nome-comentario">Smarttbot</div>
+							<div class="icones-comentario">
+								<div class="dar-like"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+								<div class="responder-comentario"><i class="fa fa-comments" aria-hidden="true"></i></div>
+								<div class="estrela"><i class="fa fa-star" aria-hidden="true"></i></div>
+								<div class="tempo-comentario">2h</div>
+							</div>
+						</div>
+						<div class="comentario-maria">Lorem ipsum dolor sit amet, consectetur.</div>
+					</div>
+				</div>
+				<div class="box-comentar">
+					<input type="text" name="comentario-user" value="Escreva um comentário">
+				</div>
 
-			<div class="link-comparacao">
-				<a href="comparacao.html"> Comparar estratégias</a>				
+
 			</div>
 
 			<div class="opcao-final">
@@ -57,7 +211,7 @@
 
 			<div class="robo-ajuda">
 				<div class="img-ajuda"><img src="img/robot.svg"></div>
-			</div>
+			</div>	
 
 			
 			<div class="conteudo-extra">
