@@ -155,10 +155,12 @@ header {
 .container {
   justify-content: space-around;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 70vh;
   padding: 0;
-  margin-bottom: 10vh;
+  margin-bottom: 6vh;
 }
 
 .carousel {
@@ -374,6 +376,7 @@ header {
     width: 100vw;
     height: 55vh;
     margin-top: 0;
+    margin-bottom: 3vh;
   }
 
   .carousel {
@@ -464,6 +467,65 @@ header {
   .botoes {
     margin-top: 2vh;
   }
+
+  .match-compra {
+    min-width: 100%;
+  }
+
+  .match-compra button {
+    min-width: 45%;
+  }
+}
+
+.match-compra {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto 10vh auto;
+  flex: 0 0 50%;
+}
+
+.match-compra button {
+  height: 8vh;
+  width: 15vw;
+  font-size: 14pt;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.match-button {
+  border: 2px solid rgba(255, 0, 0, 0.3);
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.match-button img {
+  height: 24pt;
+  width: auto;
+}
+
+.compra-button {
+  border: 2px solid #00a59d;
+  background-color: #00a59d;
+  color: white;
+}
+
+.conteudo-extra {
+  display: flex;
+  justify-content: center;
+  color: #7f7f7f;
+  width: 40%;
+  margin: 0 auto 4vh auto;
+}
+.mat-edu {
+  border-right: 1pt solid;
+  border-color: #707070;
+  padding-right: 4pt;
+}
+.blog {
+  margin-left: 4pt;
 }
 
 footer {
