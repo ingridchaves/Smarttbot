@@ -6,10 +6,87 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style>
-		.saidas{
+		
+		.descricao-comparacao{
+			color: #B4B4B4;
+			font-size: 12pt;
+			margin-top: 8pt;
+		}
+		.nome-robo, .autor-robo, .papel-robo, .risco-robo, .retorno-robo, .garantia-robo, .operacao-robo, .frequencia-robo, .preco-robo {
 			display: flex;
 			justify-content: space-between;
+			border-bottom: 1pt solid;
+			border-color: #B5B5B5;
+			color: #7F7F7F;
+			padding-bottom: 10pt;
+			padding-top: 10pt;
+			font-size: 12pt;
 		}
+
+		.titulo-nome, .titulo-autor, .titulo-papel, .titulo-risco, .titulo-retorno, .titulo-garantia, .titulo-operacao, .titulo-frequencia, .titulo-preco {
+			padding-left: 8pt;
+			
+		}
+
+		.nome1-robo, .nome2-robo, .nome-3-robo, .autor1-robo, .autor2-robo, .autor3-robo, .papel1-robo, .papel2-robo, .papel3-robo, .risco1-robo, .risco2-robo, .risco3-robo, .retorno1-robo, .retorno2-robo, .retorno3-robo, .garantia1-robo, .garantia2-robo, .garantia3-robo, .operacao1-robo, .operacao2-robo, .operacao3-robo, .frequencia1-robo, .frequencia2-robo, .frequencia3-robo, .preco1-robo, .preco2-robo, .preco3-robo, .titulo-nome, .titulo-autor, .titulo-papel, .titulo-risco, .titulo-retorno, .titulo-garantia, .titulo-operacao, .titulo-frequencia, .titulo-preco {
+			width: 20%;
+		}
+
+		.nome1-robo, .nome2-robo, .nome-3-robo, .autor1-robo, .autor2-robo, .autor3-robo, .papel1-robo, .papel2-robo, .papel3-robo, .risco1-robo, .risco2-robo, .risco3-robo, .retorno1-robo, .retorno2-robo, .retorno3-robo, .garantia1-robo, .garantia2-robo, .garantia3-robo, .operacao1-robo, .operacao2-robo, .operacao3-robo, .frequencia1-robo, .frequencia2-robo, .frequencia3-robo, .preco1-robo, .preco2-robo, .preco3-robo{
+			text-align: center;
+			font-style: italic;
+		}
+
+		.garantia-robo i{
+			color: #00A59D;
+			font-size: 14.25pt;
+		}
+
+		.preco1-robo, .preco2-robo, .preco3-robo {
+			color: #00A59D;
+			font-weight: bold;
+
+		}
+		.robolfo, .robolene {
+			width: 58pt;
+		}
+		.cabecalho-comparacao {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 17pt;
+
+		}
+		.selecionar-parametro-robos, .robo1-comparacao, .robo2-comparacao, .adicionar-comparacao {
+			width: 20%;
+			text-align: center;
+			
+		}
+		.selecionar-parametro-robos {
+		    display: flex;
+		    flex-direction: column;
+		}
+
+		.fa-plus-circle:before {
+  		  content: "\f055";
+  		  font-size: 60pt;
+  		  color: #00A59D;
+		}
+
+		.selecionar-parametro-robos {
+			justify-content: space-around;
+
+		}
+		.box-conteudo-comparacao select {
+			border-radius: 2pt;
+			border-color: #B5B5B5;
+			background-color: #fff;
+			color: #B5B5B5;
+			height: 19.57pt;
+
+		}
+		
+
+
 	</style>
 </head>
 <body>
@@ -35,41 +112,103 @@
 				<p class="n5"> Loja de Estrátegias</p>	
 			</div>
 			<div class="saidas">
-				<div class="menu-principal"> <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Menu Principal </div>
-				<div class="menu-principal"> <i class="fa fa-gratipay" aria-hidden="true"></i>Seus Matchs </div>
+				<div class="menu-saidas"> <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Menu Principal </div>
+				<div class="match-saidas"> <img class="heart-circle" src="img/heart.svg">Seus Matchs </div>
 			</div>
 			<div class="texto-comparacao">
 				<div class="chamada-comparacao">Vamos comparar?</div>
 				<div class="descricao-comparacao">Agora que você viu qual estratégia da um match com o seu perfil de investimento, vamos te ajudar a descobrir qual é a mais adequada para você.</div>
 			</div>
-			<div class="robos">
-				<div>
-
-					<div>
-						<select name="parametro">
+			<div class="cabecalho-comparacao">
+				<div class="selecionar-parametro-robos">
+					<select class="parametro-comparacao" name="parametro">
+							<option value="param">Selecione parâmetros</option>
 							<option value="param1">param1</option>
 							<option value="param2">param2</option>
-						</select>
-					</div>
-					<div>
-						<select name="robos">
-							<option>Rodolfo</option>
+					</select>
+					<select name="robos">
+							<option>Selecione Robôs</option>
+							<option>Robolfo</option>
 							<option>Robolene</option>
-						</select>
-					</div>
-
+					</select>
 				</div>
-				<div>
-					<a href=""> </a>
-				</div>
-				<div>
-					<a href=""> </a>
-				</div>
-				<div>
-					<a href=""></a>
-				</div>
+				<div class="robo1-comparacao"><img class= "robolfo" src="img/robot-2.svg"></div>
+				<div class="robo2-comparacao"><img class="robolene" src="img/blue-robot.jpg"></div>
+				<div class="adicionar-comparacao"><i class="fa fa-plus-circle" aria-hidden="true"></i></div>
+				
 			</div>
+			<div class="nome-robo">
+				 	<div class="titulo-nome">Robô</div>
+					<div class="nome1-robo">Robolfo</div>
+					<div class="nome2-robo">Robolene</div>
+					<div class="nome-3-robo"> </div> 
+			</div>
+			<div class="autor-robo">
+				 	<div class="titulo-autor">Autor</div>
+					<div class="autor1-robo">Smarttbot</div>
+					<div class="autor2-robo">Smarttbot</div>
+					<div class="autor3-robo"> </div> 
+			</div>
+			<div class="papel-robo">
+				<div class="titulo-papel">Papel</div>
+				<div class="papel1-robo">Dólar Cheio</div>
+				<div class="papel2-robo">Mini Dólar</div>
+				<div class="papel3-robo"> </div> 
+			</div>
+			<div class="risco-robo">
+				<div class="titulo-risco">Risco</div>
+				<div class="risco1-robo">Baixo</div>
+				<div class="risco2-robo">Médio Alto</div>
+				<div class="risco3-robo"> </div> 
+			</div>
+			<div class="retorno-robo">
+				<div class="titulo-retorno">Retorno</div>
+				<div class="retorno1-robo">2 meses</div>
+				<div class="retorno2-robo">2 semanas</div>
+				<div class="retorno3-robo"> </div> 
+			</div>
+			<div class="garantia-robo">
+				<div class="titulo-garantia">Garantia</div>
+				<div class="garantia1-robo"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+				<div class="garantia2-robo"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+				<div class="garantia3-robo"></div> 
+			</div>
+			<div class="operacao-robo">
+				<div class="titulo-operacao">Operação</div>
+				<div class="operacao1-robo">Daytrade</div>
+				<div class="operacao2-robo">Daytrade</div>
+				<div class="operacao3-robo"> </div> 
+			</div>
+			<div class="frequencia-robo">
+				<div class="titulo-frequencia">Frequência</div>
+				<div class="frequencia1-robo"> Baixa</div>
+				<div class="frequencia2-robo"> Alta</div>
+				<div class="frequencia3-robo"> </div> 
+			</div>
+			<div class="preco-robo">
+				<div class="titulo-frequencia">Preço</div>
+				<div class="preco1-robo"> R$ 199/ mês</div>
+				<div class="preco2-robo"> R$ 399,00/ mês</div>
+				<div class="preco3-robo"> </div> 
+				
+				</div>
+		<div class="opcao-final">
+			<div>
+				<div class="match"></div>
+			</div>
+			<div class="posso-ajudar">
+				<div class="texto-ajuda"> Posso ajudar?</div>
+				<div class="img-ajuda"><img src="img/robot.svg"></div>
+			</div>
+		</div>
+		<div class="conteudo-extra">
+			<div class="mat-edu"> Materiais educativos</div>
+			<div class="blog"> Smarttbot Blog</div>
 			
+		</div>
+
+
+
 
 
 
