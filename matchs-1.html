@@ -57,14 +57,15 @@
       .msg-apresenta {
         font-size: 20pt;
         color: #00a59d;
-        margin-top: 25pt;
+        margin-top: 5vh;
       }
 
       .detalhes-apresenta {
-        color: #b4b4b4;
+        color: #b5b5b5;
         font-size: 12pt;
+        font-weight: normal;
         text-align: left;
-        margin-bottom: 6vh;
+        margin-bottom: 5vh;
       }
 
       .nossas-estrategias {
@@ -74,6 +75,11 @@
 
       .box-conteudo-entrada i {
         color: #00a59d;
+      }
+
+      .box-conteudo-entrada {
+        width: 90vw;
+        align-self: center;
       }
 
       .nome-usuario {
@@ -119,14 +125,16 @@
         justify-content: space-around;
         display: flex;
         width: 100vw;
-        height: 70vh;
+        height: 55vh;
         padding: 0;
         margin-bottom: 10vh;
       }
 
       .carousel {
-        width: 40%;
+        width: 100%;
         height: 100%;
+        justify-content: space-around;
+        display: flex;
       }
 
       .carousel-inner {
@@ -141,6 +149,7 @@
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.1);
@@ -148,7 +157,7 @@
       }
       .topo {
         width: 100%;
-        height: 25%;
+        height: auto;
         display: flex;
         align-items: center;
         padding: 0 5%;
@@ -159,12 +168,12 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 60%;
+        width: auto;
       }
 
       .circle {
         border-radius: 50%;
-        margin-right: 2%;
+        margin-right: 0%;
         height: 15vh;
         width: 15vh;
         display: flex;
@@ -174,7 +183,7 @@
 
       .circle img {
         object-fit: contain;
-        width: 80%;
+        width: 100%;
         height: auto;
         border-radius: 50%;
       }
@@ -236,18 +245,18 @@
       .descricao p {
         text-indent: justify;
         font-size: 10pt;
-        line-height: 1.2em;
-        font-weight: 600;
+        line-height: 1.1em;
+        font-weight: 400;
         color: rgba(0, 0, 0, 0.5);
       }
 
       .card-wrap {
-        margin: 3% auto 0% auto;
+        margin: 1vh auto 0% auto;
         width: 80%;
         height: 70%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
       }
 
       .card {
@@ -268,34 +277,44 @@
 
       .botoes {
         width: 90%;
-        height: 30%;
-        margin: 5% auto 0 auto;
+        height: auto;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
       }
 
       .desempenho {
-        font-size: 12pt;
+        font-size: 10pt;
         color: rgba(0, 0, 0, 0.5);
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: space-around;
+      }
+
+      .desempenho p {
+        margin: 0;
+      }
+
+      .compare {
+        text-decoration: underline;
+        text-decoration-color: rgba(0, 0, 0, 0.5);
+        font-size: 9pt;
       }
 
       .desempenho img {
-        width: 50%;
+        width: 60%;
         height: auto;
       }
 
       .icons {
         width: 50%;
         display: flex;
-        align-items: flex-start;
-        padding-top: 5%;
-        padding-left: 5%;
-        justify-content: space-evenly;
-        opacity: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0%;
+        padding-left: 0%;
+        opacity: 0.7;
         transition: 1s;
       }
 
@@ -318,10 +337,16 @@
       }
 
       @media (max-width: 575px) {
+        .container {
+          width: 100vw;
+          margin-top: 0;
+        }
+
         .topo {
+          align-self: center;
           justify-content: space-between;
-          padding: 0 3vh;
           margin-bottom: 0;
+          padding-top: 2vh;
         }
 
         .circle {
@@ -345,16 +370,16 @@
         }
 
         .stats {
-          width: 30%;
-          height: 70%;
+          width: auto;
+          height: auto;
         }
 
         .stats-row p {
-          font-size: 12pt;
+          font-size: 10pt;
         }
 
         .stats-row img {
-          height: 3vh;
+          height: 2.5vh;
         }
 
         .circle {
@@ -362,17 +387,17 @@
         }
 
         .descricao p {
-          margin-top: -5%;
-          font-size: 9pt;
-          font-weight: 500;
-          line-height: 1.2em;
+          margin-top: 1vh;
+          font-size: 8pt;
+          font-weight: 400;
+          line-height: 1.1em;
           text-align: initial;
         }
 
         .card-wrap {
           height: 50%;
           width: 100%;
-          margin-top: 8%;
+          margin-top: 2vh;
         }
 
         .card {
@@ -421,7 +446,7 @@
     <div class="conteudo">
       <div class="box-conteudo-entrada">
         <div class="loja">
-          <p class="n5">Loja de Estrátegias</p>
+          <p class="n5">Loja de Estratégias</p>
         </div>
         <div class="apresenta">
           <p class="msg-apresenta">
@@ -437,7 +462,7 @@
       </div>
     </div>
     <div class="container">
-      <div id="myCarousel" class="carousel " data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -451,10 +476,135 @@
             <div class="topo">
               <div class="first-two">
                 <div class="circle">
-                  <img src="./img/robot-2.svg" alt="" />
+                  <img src="./img/robo1.png" alt="" />
                 </div>
                 <div class="caracteristicas">
                   <p class="name">Robolfo</p>
+                  <p class="autor">Autor: SmarttBot</p>
+                </div>
+              </div>
+              <div class="stats">
+                <div class="stats-row">
+                  <p>250</p>
+                  <img src="./img/like.svg" alt="" />
+                </div>
+                <div class="stats-row">
+                  <p>780</p>
+                  <img src="./img/user.svg" alt="" />
+                </div>
+                <div class="stats-row">
+                  <p>1.853</p>
+                  <img src="./img/random.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="descricao">
+              <p>
+                Olá! Sou um robô que executa uma estratégia de investimento com
+                baixa frequência de operação e um prazo de retorno longo, mas
+                com baixo risco. Meu papel negociável é o Dolar Cheio e possuo
+                um desempenho acima da média.
+              </p>
+              <div class="card-wrap">
+                <div class="card">
+                  <p>Tempo de operação <br /></p>
+                  <p class="tempo">DAYTRADE</p>
+                </div>
+                <div class="card">
+                  <p>Risco<br /></p>
+                  <p class="risco">BAIXO</p>
+                </div>
+                <div class="card">
+                  <p>Prazo de retorno<br /></p>
+                  <p class="tempo">2 MESES</p>
+                </div>
+              </div>
+            </div>
+            <div class="botoes">
+              <div class="desempenho">
+                <p>Desempenho passado:</p>
+                <img src="./img/stars-copied.png" alt="" />
+                <p class="name">R$ 199,00 / mês</p>
+                <p class="compare">Compare esta estratégia</p>
+              </div>
+              <div class="icons">
+                <img src="./img/error.svg" alt="" />
+                <img src="./img/heart.svg" alt="" />
+                <img src="./img/plus-2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="topo">
+              <div class="first-two">
+                <div class="circle">
+                  <img src="./img/robo1.png" alt="" />
+                </div>
+                <div class="caracteristicas">
+                  <p class="name">Eva</p>
+                  <p class="autor">Autor: SmarttBot</p>
+                </div>
+              </div>
+              <div class="stats">
+                <div class="stats-row">
+                  <p>250</p>
+                  <img src="./img/like.svg" alt="" />
+                </div>
+                <div class="stats-row">
+                  <p>780</p>
+                  <img src="./img/user.svg" alt="" />
+                </div>
+                <div class="stats-row">
+                  <p>1.853</p>
+                  <img src="./img/random.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="descricao">
+              <p>
+                Olá! Sou um robô que executa uma estratégia de investimento com
+                baixa frequência de operação e um prazo de retorno longo, mas
+                com baixo risco. Meu papel negociável é o Dolar Cheio e possuo
+                um desempenho acima da média.
+              </p>
+              <div class="card-wrap">
+                <div class="card">
+                  <p>Tempo de operação <br /></p>
+                  <p class="tempo">DAYTRADE</p>
+                </div>
+                <div class="card">
+                  <p>Risco<br /></p>
+                  <p class="risco">BAIXO</p>
+                </div>
+                <div class="card">
+                  <p>Prazo de retorno<br /></p>
+                  <p class="tempo">2 MESES</p>
+                </div>
+              </div>
+            </div>
+            <div class="botoes">
+              <div class="desempenho">
+                <p>Desempenho passado:</p>
+                <img src="./img/stars-copied.png" alt="" />
+                <p class="name">R$ 199,00 / mês</p>
+              </div>
+              <div class="icons">
+                <img src="./img/error.svg" alt="" />
+                <img src="./img/heart.svg" alt="" />
+                <img src="./img/plus-2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="topo">
+              <div class="first-two">
+                <div class="circle">
+                  <img src="./img/robo1.png" alt="" />
+                </div>
+                <div class="caracteristicas">
+                  <p class="name">Wall-E</p>
                   <p class="autor">Autor: SmarttBot</p>
                 </div>
               </div>
