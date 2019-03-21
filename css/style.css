@@ -31,11 +31,18 @@ header {
   color: #cdcdcd;
 }
 
-.conteudo {
+.content {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1vh;
+}
+
+.conteudo {
+  justify-content: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
 }
 
 .loja {
