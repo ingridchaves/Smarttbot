@@ -31,13 +31,6 @@ header {
   color: #cdcdcd;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 1vh;
-}
-
 .conteudo {
   justify-content: center;
   display: flex;
