@@ -129,6 +129,96 @@
     		padding-left: 10pt;
     		padding-right: 13.88pt;
     	}
+    	.cabecalho-desempenho{
+    		display: flex;
+    		margin-top: 5.5pt;
+    	}
+    	.mais-info{
+    		display: flex;
+    		justify-content: space-between;
+    	}
+    	.img-desempenho i{
+    		color: #FBD826;
+    		height: 5pt;
+    	}
+    	.titulo-desempenho{
+    		color: #7F7F7F;
+    		font-size: 14pt;
+    		font-weight: bold;
+    	}
+    	.extra-desempenho{
+    		margin-top: 10pt;
+    		justify-content: space-around;
+    		flex-direction: column;
+    		display: flex;
+    		width: 30%;
+    	}
+
+    	.bt-ficha-tecnica{
+    		display: flex;
+    	}
+    	.bt-garantias{
+    		display: flex;
+    	}
+    	.img-ficha-tecnica i, .img-garantias i{
+    		color: #FFFFFF;
+    	}
+    	.bt-ficha-tecnica, .bt-garantias{
+    		background-color: #00A59D;
+    		border-radius: 4pt;
+    		align-items: center;
+    		padding: 3pt;
+    		font-size: 12pt;
+    		color: #fff;
+    	}
+    	.txt-ficha-tecnica, .txt-garantias{
+    		margin-left: 4pt;
+    		font-size: 12pt;
+    	}
+    	.decisao{
+    		display: flex;
+    		justify-content: flex-end;
+    	}
+    	.fechar-perfil, .dar-match{
+    		font-size: 28pt;
+    		margin-left:6.75pt;
+    	}
+    	.dar-match i{
+    		color: #E28F94;
+
+    	}
+    	.fechar-perfil i{
+    		color: #B5B5B5;
+    	}
+    	.preco-mais-info {
+			color: #00A59D;
+    	}
+    	.comprar {
+    		background-color: rgba(0, 165, 157, 1);
+    		border: 1pt solid;
+    		border-radius: 4pt;
+    		color: #fff;
+    		display: flex;
+    		align-items: center;
+    		width: 25%;
+    		text-align: center;
+    		justify-content: center;
+    		height: 32pt;
+    	}
+    	.acao-match-comprar{
+    		display: flex;
+    		justify-content: space-around;
+    	}
+    	.fa-gratipay {
+    		color: rgba(226, 143, 148, 1);
+    	}
+
+    	.robo-ajuda {
+    		display: flex;
+    		justify-content: flex-end;
+    		margin-top: 10px;
+    	}
+    	
 	</style>
 </head>
 <body>
@@ -225,6 +315,35 @@
 						</div>
 						
 					</div>
+					<div class="mais-info">
+						<div class="desempenho">
+							<div class="cabecalho-desempenho">
+								<div class="titulo-desempenho">Desempenho</div>
+								<div class="img-desempenho"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+							</div>
+							<div class="grafico-desempenho"><img src="img/grafico.png"></div>
+						</div>
+						<div class="extra-desempenho">
+
+							<div class="bt-ficha-tecnica"> 
+								<div class="img-ficha-tecnica"><i class="fa fa-cog" aria-hidden="true"></i></div>
+								<div class="txt-ficha-tecnica">Ficha Técnica</div>
+	
+							</div>
+							<div class="bt-garantias">
+								<div class="img-garantias"><i class="fa fa-lock" aria-hidden="true"></i></div>
+								<div class="txt-garantias">Garantias</div>
+								
+							</div>
+							<div class="preco-mais-info">R$ 199,00 / mês</div>
+							<div class="decisao">
+								<div class="fechar-perfil"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+								<div class="dar-match"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+							</div>
+							
+						</div>
+						
+					</div>
 				</div>
 				<div class="robo-direita"></div>
 			</div>
@@ -234,16 +353,19 @@
 			</div>
 
 			<div class="opcao-final">
-				<div>
-					<div class="match">
-						<img clas="box-match" src="img/heart.svg">
-						<div class="seus-match"> Seus Matchs</div>
-					</div>
-				</div>
-				<div class="posso-ajudar">
-					<div class="texto-ajuda"> Posso ajudar?</div>
-					<div class="img-ajuda"><img src="img/robot.svg"></div>
-				</div>
+			
+			<div class="match">
+				<div clas="img-seus-matchs"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+				<div class="seus-match"> Seus Matchs</div>
+			</div>
+			<div class="comprar">
+					<div class="texto-comprar"> Comprar Estratégia</div>
+			</div>
+				
+					
+			</div>
+			<div class="robo-ajuda">
+				<div class="img-ajuda"><img src="img/robot.svg"></div>
 			</div>
 
 

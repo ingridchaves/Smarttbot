@@ -154,11 +154,20 @@ footer p {
       height: 20pt;
     }
     .match {
-      display: flex;
-      align-items: center;
-      color: #E28F94;
-      border: 1.5pt solid;
-      border-color: #b5b5b5;
-      padding: 8pt;
-      border-radius: 3pt;
+    display: flex;
+    align-items: center;
+    color: rgba(226, 143, 148, 1);
+    border: 0.5pt solid;
+    border-color: rgba(127, 127, 127, 0.6);
+    border-radius: 3pt;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    font-size: 16pt;
+    }
+    .seus-match{
+      margin-left: 5pt;
+    }
+    .img-seus-matchs {
+      font-size: 10pt;
     }
