@@ -465,3 +465,19 @@ header {
     margin-top: 2vh;
   }
 }
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  border-top: 1pt solid;
+  border-color: #cdcdcd;
+  color: #b5b5b5;
+  text-align: center;
+  padding-top: 8.5pt;
+  max-height: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8em;
+}
