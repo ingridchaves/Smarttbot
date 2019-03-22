@@ -300,3 +300,8 @@ footer p {
 			color: #7F7F7F;
 
 		}
+    .ui-slider-handle ui-btn ui-shadow ui-btn-null {
+      border-radius: 50% !important;
+    }
+
+
