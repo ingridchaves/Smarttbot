@@ -284,6 +284,12 @@ footer p {
 			margin-right: 8pt;
 
 		}
+    .investimento{
+      color: #7F7F7F;
+      height: 20pt;
+      padding-left: 10pt;
+      margin-left: 30pt;
+    }
 
 		.perg-temp i{
 			margin-right: 8pt;
@@ -300,6 +306,11 @@ footer p {
 			color: #7F7F7F;
 
 		}
+    .img-ajuda img {
+        width: 74pt;
+        padding-right: 25pt;
+
+      }
 
 
 
