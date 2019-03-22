@@ -1,0 +1,420 @@
+/*CSS Document*/
+html,
+body,
+h1 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid;
+  border-color: #cdcdcd;
+  justify-content: space-between;
+  max-width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 19px;
+  padding-left: 14px;
+  padding-bottom: 19px;
+  padding-right: 14px;
+}
+
+.canto-superior {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.fa {
+  color: #cdcdcd;
+}
+
+.conteudo {
+  justify-content: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.loja {
+  color: #b5b5b5;
+  font-size: 10pt;
+}
+
+.box-conteudo-login,
+.box-conteudo-entrada {
+  width: 40vw;
+}
+
+.box-conteudo-perfil-robo-1,
+.box-conteudo-forum {
+  width: 60vw;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  border-top: 1pt solid;
+  border-color: #cdcdcd;
+  color: #b5b5b5;
+  text-align: center;
+  padding-top: 8.5pt;
+  max-height: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8em;
+}
+.opcao-final {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20pt;
+}
+.posso-ajudar {
+  display: flex;
+  align-items: center;
+}
+.img-ajuda {
+  width: 37pt;
+  margin-left: 20pt;
+}
+.texto-ajuda {
+  border-top: 1.5pt solid;
+  border-left: 1.5pt solid;
+  border-right: 1.5pt solid;
+  border-bottom: 1.5pt solid;
+  padding: 9.5pt;
+  border-color: #00a59d;
+  position: relative;
+}
+.texto-ajuda:after {
+  content: '';
+  width: 0;
+  height: 0;
+
+  position: absolute;
+
+  border-left: 20px solid #00a59d;
+  border-right: 20px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: 100%;
+}
+.conteudo-extra {
+  display: flex;
+  justify-content: center;
+  color: #7f7f7f;
+  margin-top: 30pt;
+}
+.mat-edu {
+  border-right: 1pt solid;
+  border-color: #707070;
+  padding-right: 4pt;
+}
+.blog {
+  margin-left: 4pt;
+}
+.saidas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45pt;
+}
+.chamada-comparacao {
+  color: #e28f94;
+  font-size: 25pt;
+}
+
+.heart-circle {
+  height: 13.04pt;
+  width: 13.04pt;
+  margin-right: 4pt;
+}
+.fa-arrow-circle-o-left:before {
+  content: '\f190';
+  margin-right: 4pt;
+}
+.match-saidas {
+  color: #e28f94;
+  font-size: 25pt;
+  display: flex;
+  align-items: center;
+}
+
+.match-saidas img {
+  height: 24pt;
+  width: auto;
+}
+.menu-saidas {
+  color: #00a59d;
+}
+.menu-saidas i {
+  font-size: 13.3pt;
+}
+.match img {
+  height: 20pt;
+}
+.match {
+  display: flex;
+  align-items: center;
+  color: rgba(226, 143, 148, 1);
+  border: 0.5pt solid;
+  border-color: rgba(127, 127, 127, 0.6);
+  border-radius: 3pt;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  font-size: 16pt;
+}
+.seus-match {
+  margin-left: 5pt;
+}
+.img-seus-matchs {
+  font-size: 10pt;
+}
+.fa-gratipay {
+  color: rgba(226, 143, 148, 1);
+}
+
+.comprar {
+  background-color: rgba(0, 165, 157, 1);
+  border: 1pt solid;
+  border-radius: 4pt;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  height: 32pt;
+}
+.acao-match-comprar {
+  display: flex;
+  justify-content: space-around;
+}
+.robo-ajuda {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.link-comparacao a {
+  color: #00a59d;
+}
+
+.link-comparacao {
+  margin-top: 10pt;
+  font-size: 14pt;
+}
+
+.descricao-comparacao {
+  color: #b4b4b4;
+  font-size: 12pt;
+  margin-top: 8pt;
+}
+.nome-robo,
+.autor-robo,
+.papel-robo,
+.risco-robo,
+.retorno-robo,
+.garantia-robo,
+.operacao-robo,
+.frequencia-robo,
+.preco-robo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1pt solid;
+  border-color: #b5b5b5;
+  color: #7f7f7f;
+  padding-bottom: 5pt;
+  padding-top: 5pt;
+  font-size: 12pt;
+  align-items: center;
+}
+
+.titulo-nome,
+.titulo-autor,
+.titulo-papel,
+.titulo-risco,
+.titulo-retorno,
+.titulo-garantia,
+.titulo-operacao,
+.titulo-frequencia,
+.titulo-preco {
+  padding-left: 8pt;
+}
+
+.nome1-robo,
+.nome2-robo,
+.nome-3-robo,
+.autor1-robo,
+.autor2-robo,
+.autor3-robo,
+.papel1-robo,
+.papel2-robo,
+.papel3-robo,
+.risco1-robo,
+.risco2-robo,
+.risco3-robo,
+.retorno1-robo,
+.retorno2-robo,
+.retorno3-robo,
+.garantia1-robo,
+.garantia2-robo,
+.garantia3-robo,
+.operacao1-robo,
+.operacao2-robo,
+.operacao3-robo,
+.frequencia1-robo,
+.frequencia2-robo,
+.frequencia3-robo,
+.preco1-robo,
+.preco2-robo,
+.preco3-robo,
+.titulo-nome,
+.titulo-autor,
+.titulo-papel,
+.titulo-risco,
+.titulo-retorno,
+.titulo-garantia,
+.titulo-operacao,
+.titulo-frequencia,
+.titulo-preco {
+  width: 20%;
+}
+
+.nome1-robo,
+.nome2-robo,
+.nome-3-robo,
+.autor1-robo,
+.autor2-robo,
+.autor3-robo,
+.papel1-robo,
+.papel2-robo,
+.papel3-robo,
+.risco1-robo,
+.risco2-robo,
+.risco3-robo,
+.retorno1-robo,
+.retorno2-robo,
+.retorno3-robo,
+.garantia1-robo,
+.garantia2-robo,
+.garantia3-robo,
+.operacao1-robo,
+.operacao2-robo,
+.operacao3-robo,
+.frequencia1-robo,
+.frequencia2-robo,
+.frequencia3-robo,
+.preco1-robo,
+.preco2-robo,
+.preco3-robo {
+  text-align: center;
+  font-style: italic;
+}
+
+.garantia-robo i {
+  color: #00a59d;
+  font-size: 14.25pt;
+}
+
+.preco1-robo,
+.preco2-robo,
+.preco3-robo {
+  color: #00a59d;
+  font-weight: bold;
+}
+.robolfo,
+.robolene {
+  width: 58pt;
+}
+.cabecalho-comparacao {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17pt;
+}
+
+.robo1-comparacao,
+.robo2-comparacao,
+.adicionar-comparacao {
+  display: flex;
+  text-align: center;
+}
+
+.adicionar-match {
+  width: 20%;
+  text-align: center;
+  margin-top: 20pt;
+}
+.selecionar-parametro-robos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.fa-plus-circle:before {
+  content: '\f055';
+  font-size: 60pt;
+  color: #00a59d;
+}
+
+.box-conteudo-comparacao select {
+  border-radius: 2pt;
+  border-color: #b5b5b5;
+  background-color: #fff;
+  color: #b5b5b5;
+  height: 19.57pt;
+}
+
+.ordenar {
+  color: #00a59d;
+  font-size: 18pt;
+  margin-right: 2vh;
+  align-items: center;
+}
+
+.ordenador {
+  font-size: 8pt;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-appearance: none; /* Remove estilo padrão do Chrome */
+  -moz-appearance: none; /* Remove estilo padrão do FireFox */
+  appearance: none; /* Remove estilo padrão do FireFox*/
+  background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif)
+    no-repeat;
+  background-position: 170px center;
+  width: 201px; /* Imagem de fundo (Seta) */
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-top: 3%;
+}
+
+.botoes button {
+  border: solid 1px;
+  width: 45%;
+  border-radius: 5px;
+  font-size: 15pt;
+  height: 6vh;
+}
+
+.compare {
+  color: #00a59d;
+  border-color: black;
+  background-color: white;
+  margin-bottom: 1vh;
+}
+
+.compre {
+  color: white;
+  background-color: #00a59d;
+  border-color: #00a59d;
+}
