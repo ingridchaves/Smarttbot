@@ -40,17 +40,12 @@ header {
 
 .loja {
   color: #b5b5b5;
-  font-size: 12pt;
-  margin-top: 1vh;
+  font-size: 10pt;
 }
 
 .box-conteudo-login,
-
-.box-conteudo-perfil-robo-1 {
-
 .box-conteudo-entrada,
  {
-
   width: 40vw;
 }
 
@@ -73,38 +68,8 @@ footer p {
   margin: 0;
   font-size: 0.8em;
 }
-
-.opcao-final {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 20pt;
-}
-.posso-ajudar {
-  display: flex;
-  align-items: center;
-}
-.img-ajuda {
-  width: 37pt;
-  margin-left: 20pt;
-}
-.texto-ajuda {
-  border-top: 1.5pt solid;
-  border-left: 1.5pt solid;
-  border-right: 1.5pt solid;
-  border-bottom: 1.5pt solid;
-  padding: 9.5pt;
-  border-color: #00a59d;
-  position: relative;
-}
-.texto-ajuda:after {
-  content: '';
-  width: 0;
-  height: 0;
-  position: absolute;
-  }
     .opcao-final {
-        display: flex;
+        display: flex;;
         justify-content: space-between;
         width: 100%;  
         margin-top: 20pt;
@@ -165,67 +130,8 @@ footer p {
       color: #00A59D;
       font-size: 25pt;
 
-  border-left: 20px solid #00a59d;
-  border-right: 20px solid transparent;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  left: 100%;
-}
-.conteudo-extra {
-  display: flex;
-  justify-content: center;
-  color: #7f7f7f;
-  margin-top: 30pt;
-}
-.mat-edu {
-  border-right: 1pt solid;
-  border-color: #707070;
-  padding-right: 4pt;
-}
-.blog {
-  margin-left: 4pt;
-}
-.saidas {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 45pt;
-}
-.chamada-comparacao {
-  color: #00a59d;
-  font-size: 25pt;
-}
+    }
 
-
-.heart-circle {
-  height: 13.04pt;
-  width: 13.04pt;
-  margin-right: 4pt;
-}
-.fa-arrow-circle-o-left:before {
-  content: '\f190';
-  margin-right: 4pt;
-}
-.match-saidas {
-  color: #e28f94;
-}
-.menu-saidas {
-  color: #00a59d;
-}
-.menu-saidas i {
-  font-size: 13.3pt;
-}
-.match img {
-  height: 20pt;
-}
-.match {
-  display: flex;
-  align-items: center;
-  color: #e28f94;
-  border: 1.5pt solid;
-  border-color: #b5b5b5;
-  padding: 8pt;
-  border-radius: 3pt;
-}
     .heart-circle{
       height: 13.04pt;
       width: 13.04pt;
@@ -298,4 +204,115 @@ footer p {
     .link-comparacao{
       margin-top: 10pt;
       font-size: 14pt;
+    }
+.chamada-forum{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .robo-forum{
+      display: flex;
+    }
+    .bt-forum{
+      display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .bt-forum i{
+      color: rgba(0, 165, 157, 1);
+
+    }
+    .info-robo-forum{
+      justify-content: space-around;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .txt-forum{
+      font-size: 28pt;
+      color:#00A59D;
+    }
+    .logo-forum{
+      font-size: 35.74pt;
+    }
+    .nome-robo-forum{
+      font-size: 16pt;
+      color:#00A59D;
+    }
+    .autor-robo-forum{
+      color: rgba(127, 127, 127, 1);
+    }
+    .imagem-robo-forum{
+      width: 50pt;
+    }
+    .forum{
+      background-color: rgba(233, 233, 233, 1);
+      margin-top: 20pt;
+      height: 250pt;
+      overflow: auto;
+    }
+    .scrollbar{
+      
+    }
+
+    .box-joana, .box-maria, .box-smarttbot {
+      display: flex;
+      padding-top: 19pt;
+      margin-left: 23pt; 
+      border-bottom: 1px solid;
+      border-color:rgba(112, 112, 112, 0.4);
+    }
+    .foto-perfil-usuario1, .foto-perfil-usuario2, .foto-perfil-usuario3 {
+      width: 20%;
+      font-size: 40pt;
+    }
+    .foto-perfil-usuario1 i{
+      color: rgba(0, 165, 157, 1);
+    }
+    .foto-perfil-usuario2 i{
+      color: rgba(226, 143, 148, 1);
+    }
+    .rb-smarttbot{
+      width: 50pt;
+    }
+    .info-comentarios{
+      display:flex;
+      justify-content: space-between;
+    }
+    .nome-comentario{
+      color: rgba(127, 127, 127, 1);
+      font-size: 14pt;
+      font-weight: bold;
+    }
+    .icones-comentario{
+      display: flex;
+      justify-content: space-around;
+      width: 25%;
+    }
+    .tempo-comentario {
+      color: rgba(127, 127, 127, 1);
+    }
+    .comentario-joana, .comentario-maria{
+      color: rgba(127, 127, 127, 1);
+      font-size: 12pt;
+      text-align: left;
+      margin-top: 16pt;
+      width: 90%;
+    }
+    .box-info-comentario{
+      width: 80%;
+    }
+    .box-comentar{
+      background-color: rgba(245, 245, 245, 1);
+      border:1pt solid;
+      border-color: rgba(149, 152, 154, 1);
+      padding-left: 10px;
+    }
+    .box-comentar input {
+      width: 100%;
+      border:none;
+      height: 56pt;
+
+      color: rgba(127, 127, 127, 1)
+
     }
