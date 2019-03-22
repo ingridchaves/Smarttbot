@@ -78,10 +78,10 @@ footer p {
   display: flex;
   align-items: center;
 }
-.img-ajuda {
-  width: 37pt;
-  margin-left: 20pt;
-}
+.img-ajuda img {
+        width: 74pt;
+        margin-left: 20pt;
+      }
 .texto-ajuda {
   border-top: 1.5pt solid;
   border-left: 1.5pt solid;

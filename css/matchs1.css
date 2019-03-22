@@ -638,3 +638,14 @@ footer p {
   border-color: #00a59d;
   color: #00a59d;
 }
+
+.img-ajuda img {
+        width: 74pt;
+        margin-left: 200pt;
+      }
+  .img-ajuda {
+    width: 40%;
+    justify-content: space-evenly;
+    margin: 0 auto 10vh auto;
+    flex: 0 0 50%;
+  }

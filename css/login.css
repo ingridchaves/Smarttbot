@@ -255,10 +255,13 @@ footer p {
     .cad-existente  {
       text-align: center;
       margin-top: 27pt;
-      margin-bottom: 50pt;
     }
     .cad-existente a {
       text-decoration: none;
       color: #00A59D;
       font-weight: bold;
     }
+    .img-ajuda img {
+        width: 74pt;
+        margin-left: 20pt;
+      }
