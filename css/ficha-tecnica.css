@@ -49,7 +49,7 @@ header {
   width: 40vw;
 }
 
-.box-conteudo-perfil-robo-1, .box-conteudo-forum {
+.box-conteudo-perfil-robo-1, .box-conteudo-forum, .box-conteudo-garantias {
   width: 60vw;
 }
 
@@ -174,8 +174,7 @@ footer p {
     .fa-gratipay {
         color: rgba(226, 143, 148, 1);
       }
-
-    .comprar {
+      .comprar {
         background-color: rgba(0, 165, 157, 1);
         border: 1pt solid;
         border-radius: 4pt;
@@ -205,147 +204,11 @@ footer p {
       margin-top: 10pt;
       font-size: 14pt;
     }
-.chamada-forum{
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    .robo-forum{
-      display: flex;
-    }
-    .bt-forum{
-      display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    .bt-forum i{
-      color: rgba(0, 165, 157, 1);
+     .box-ficha-tecnica {
+      background-color:rgba(233, 233, 233, 1);
+      padding-left: 21pt;
+      padding-right: 26pt;
+      padding-bottom: 20pt;
+      padding-top: 20pt;
 
-    }
-    .info-robo-forum{
-      justify-content: space-around;
-      display: flex;
-      flex-direction: column;
-
-    }
-    .txt-forum{
-      font-size: 28pt;
-      color:#00A59D;
-    }
-    .logo-forum{
-      font-size: 35.74pt;
-    }
-    .nome-robo-forum{
-      font-size: 16pt;
-      color:#00A59D;
-    }
-    .autor-robo-forum{
-      color: rgba(127, 127, 127, 1);
-    }
-    .imagem-robo-forum{
-      width: 50pt;
-    }
-    .forum{
-      background-color: rgba(233, 233, 233, 1);
-      margin-top: 20pt;
-      height: 250pt;
-      overflow: auto;
-    }
-    .scrollbar{
-      
-    }
-
-    .box-joana, .box-maria, .box-smarttbot {
-      display: flex;
-      padding-top: 19pt;
-      margin-left: 23pt; 
-      border-bottom: 1px solid;
-      border-color:rgba(112, 112, 112, 0.4);
-    }
-    .foto-perfil-usuario1, .foto-perfil-usuario2, .foto-perfil-usuario3 {
-      width: 20%;
-      font-size: 40pt;
-    }
-    .foto-perfil-usuario1 i{
-      color: rgba(0, 165, 157, 1);
-    }
-    .foto-perfil-usuario2 i{
-      color: rgba(226, 143, 148, 1);
-    }
-    .rb-smarttbot{
-      width: 50pt;
-    }
-    .info-comentarios{
-      display:flex;
-      justify-content: space-between;
-    }
-    .nome-comentario{
-      color: rgba(127, 127, 127, 1);
-      font-size: 14pt;
-      font-weight: bold;
-    }
-    .icones-comentario{
-      display: flex;
-      justify-content: space-around;
-      width: 25%;
-    }
-    .tempo-comentario {
-      color: rgba(127, 127, 127, 1);
-    }
-    .comentario-joana, .comentario-maria{
-      color: rgba(127, 127, 127, 1);
-      font-size: 12pt;
-      text-align: left;
-      margin-top: 16pt;
-      width: 90%;
-      padding-bottom: 10pt;
-    }
-    .box-info-comentario{
-      width: 80%;
-    }
-    .box-comentar{
-      background-color: rgba(245, 245, 245, 1);
-      border:1pt solid;
-      border-color: rgba(149, 152, 154, 1);
-      padding-left: 10px;
-    }
-    .box-comentar input {
-      width: 100%;
-      border:none;
-      height: 56pt;
-      color: rgba(127, 127, 127, 1);
-      background-color: rgba(245, 245, 245, 1);
-
-    }
-
-
-    
-
-    .scrollbar::-webkit-scrollbar {
-      width: 10px;
-      background-color: #F5F5F5;
-      border:none;
-    }
-
-
-    .scrollbar::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
-      -moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
-      border-radius: 10px;
-      padding-top: 10px;
-
-      background-color: #F5F5F5;
-    }
-
-    .scrollbar::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-        background-color: rgba(0,0,0, .4);
-    }
-
-    .scrollbar::-webkit-scrollbar-thumb:hover {
-      background-color: rgba(0,0,0, .3);
-    }
-
-    .scrollbar::-webkit-scrollbar-thumb:active {
-      background-color: rgba(0,0,0, .2);
     }
