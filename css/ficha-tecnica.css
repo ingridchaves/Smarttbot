@@ -212,3 +212,49 @@ footer p {
       padding-top: 20pt;
 
     }
+    .voltar-perfil-robo {
+      font-size: 20pt;
+    }
+    .voltar-perfil-robo i {
+      color: rgba(181, 181, 181, 1);
+    }
+    .chamada-ficha-tecnica {
+      display: flex;
+      max-width: 40%;
+      justify-content: space-between;
+      margin-top: 14pt;
+    }
+    .icone-ficha-tecnica-info {
+      font-size: 20pt;
+    }
+    .icone-ficha-tecnica-info i {
+      color: rgba(127, 127, 127, 1);
+    }
+    .txt-ficha-tecnica-info {
+      font-size: 22pt;
+      color: rgba(0, 165, 157, 1);
+    }
+    .icone-duvida-info {
+      font-size: 13pt;
+    }
+    .icone-duvida-info i {
+      color: rgba(0, 85, 255, 1);
+    }
+
+    .bt-saiba-mais{
+    background-color: rgba(0, 165, 157, 1);
+    border: 1pt solid;
+    border-radius: 4pt;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    height: 32pt;
+    margin-top: 100pt;
+  }
+  .descricao-ft {
+    font-size: 14pt;
+    color:rgba(127, 127, 127, 1);
+  }
