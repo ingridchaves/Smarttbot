@@ -233,6 +233,7 @@ footer p {
     .icone-duvida-info i {
       color: rgba(0, 85, 255, 1);
     }
+
     .garantia-quant-inic, .garantia-expo-max, .garantia-min, .garantia-recomendada, .n-contrato1,  .gm-contrato1, .gr-contrato1, .n-contrato2,  .gm-contrato2, .gr-contrato2, .n-contrato3,  .gm-contrato3, .gr-contrato3, .n-contrato4,  .gm-contrato4, .gr-contrato4 
     {
       width: 30%;
@@ -287,3 +288,4 @@ footer p {
     justify-content: center;
     height: 32pt;
     margin-top: 100pt;
+  }

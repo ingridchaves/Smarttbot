@@ -298,6 +298,7 @@ footer p {
       text-align: left;
       margin-top: 16pt;
       width: 90%;
+      padding-bottom: 10pt;
     }
     .box-info-comentario{
       width: 80%;
@@ -312,7 +313,39 @@ footer p {
       width: 100%;
       border:none;
       height: 56pt;
+      color: rgba(127, 127, 127, 1);
+      background-color: rgba(245, 245, 245, 1);
 
-      color: rgba(127, 127, 127, 1)
+    }
 
+
+    
+
+    .scrollbar::-webkit-scrollbar {
+      width: 10px;
+      background-color: #F5F5F5;
+      border:none;
+    }
+
+
+    .scrollbar::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+      -moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      padding-top: 10px;
+
+      background-color: #F5F5F5;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+        background-color: rgba(0,0,0, .4);
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+      background-color: rgba(0,0,0, .3);
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:active {
+      background-color: rgba(0,0,0, .2);
     }
