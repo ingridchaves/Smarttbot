@@ -79,9 +79,9 @@ footer p {
   align-items: center;
 }
 .img-ajuda img {
-        width: 74pt;
-        margin-left: 20pt;
-      }
+  width: 74pt;
+  margin-left: 20pt;
+}
 .texto-ajuda {
   border-top: 1.5pt solid;
   border-left: 1.5pt solid;
@@ -254,6 +254,9 @@ footer p {
 .icones {
   color: rgba(127, 127, 127, 1);
   text-align: right;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
 }
 .robo-esquerda,
 .robo-direita {
