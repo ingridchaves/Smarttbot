@@ -44,12 +44,12 @@ header {
 }
 
 .box-conteudo-login,
-.box-conteudo-entrada,
- {
+.box-conteudo-entrada {
   width: 40vw;
 }
 
-.box-conteudo-perfil-robo-1, .box-conteudo-forum {
+.box-conteudo-perfil-robo-1,
+.box-conteudo-forum {
   width: 60vw;
 }
 
@@ -68,221 +68,177 @@ footer p {
   margin: 0;
   font-size: 0.8em;
 }
-    .opcao-final {
-        display: flex;;
-        justify-content: space-between;
-        width: 100%;  
-        margin-top: 20pt;
-      }
-      .posso-ajudar {
-        display:flex;
-        align-items: center;
-      }
-      .img-ajuda {
-        width: 37pt;
-        margin-left: 20pt;
-      }
-      .texto-ajuda {
-        border-top: 1.5pt solid;
-        border-left: 1.5pt solid;
-        border-right: 1.5pt solid;
-        border-bottom: 1.5pt solid;
-        padding: 9.5pt;
-        border-color: #00A59D;
-        position: relative;
-      }
-      .texto-ajuda:after {
-        content: "";
-        width: 0;
-        height: 0;
+.opcao-final {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20pt;
+}
+.posso-ajudar {
+  display: flex;
+  align-items: center;
+}
+.img-ajuda {
+  width: 37pt;
+  margin-left: 20pt;
+}
+.texto-ajuda {
+  border-top: 1.5pt solid;
+  border-left: 1.5pt solid;
+  border-right: 1.5pt solid;
+  border-bottom: 1.5pt solid;
+  padding: 9.5pt;
+  border-color: #00a59d;
+  position: relative;
+}
+.texto-ajuda:after {
+  content: '';
+  width: 0;
+  height: 0;
 
-        position: absolute;
+  position: absolute;
 
-        border-left: 20px solid #00A59D ;
-        border-right: 20px solid transparent;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        left: 100%;
+  border-left: 20px solid #00a59d;
+  border-right: 20px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: 100%;
+}
+.conteudo-extra {
+  display: flex;
+  justify-content: center;
+  color: #7f7f7f;
+  margin-top: 30pt;
+}
+.mat-edu {
+  border-right: 1pt solid;
+  border-color: #707070;
+  padding-right: 4pt;
+}
+.blog {
+  margin-left: 4pt;
+}
+.saidas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45pt;
+}
+.chamada-comparacao {
+  color: #00a59d;
+  font-size: 25pt;
+}
 
-      }
-      .conteudo-extra {
-        display: flex;
-        justify-content: center;
-        color: #7F7F7F;
-        margin-top: 30pt;
+.heart-circle {
+  height: 13.04pt;
+  width: 13.04pt;
+  margin-right: 4pt;
+}
+.fa-arrow-circle-o-left:before {
+  content: '\f190';
+  margin-right: 4pt;
+}
+.match-saidas {
+  color: #e28f94;
+}
+.menu-saidas {
+  color: #00a59d;
+}
+.menu-saidas i {
+  font-size: 13.3pt;
+}
+.match img {
+  height: 20pt;
+}
+.match {
+  display: flex;
+  align-items: center;
+  color: rgba(226, 143, 148, 1);
+  border: 0.5pt solid;
+  border-color: rgba(127, 127, 127, 0.6);
+  border-radius: 3pt;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  font-size: 16pt;
+}
+.seus-match {
+  margin-left: 5pt;
+}
+.img-seus-matchs {
+  font-size: 10pt;
+}
+.fa-gratipay {
+  color: rgba(226, 143, 148, 1);
+}
 
-      }
-      .mat-edu {
-        border-right: 1pt solid;
-        border-color: #707070;
-        padding-right: 4pt;
-      }
-      .blog {
-        margin-left: 4pt;
+.comprar {
+  background-color: rgba(0, 165, 157, 1);
+  border: 1pt solid;
+  border-radius: 4pt;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  height: 32pt;
+}
+.acao-match-comprar {
+  display: flex;
+  justify-content: space-around;
+}
+.robo-ajuda {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.link-comparacao a {
+  color: #00a59d;
+}
 
-      }
-    .saidas{
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 45pt;
-    }
-    .chamada-comparacao {
-      color: #00A59D;
-      font-size: 25pt;
+.link-comparacao {
+  margin-top: 10pt;
+  font-size: 14pt;
+}
+.experiencia-usuario button {
+  background-color: #f5f5f5;
+  color: #b5b5b5;
+  border-radius: 4pt;
+  border: 0;
+  width: 98pt;
+  height: 40pt;
+  margin-bottom: 25pt;
+}
+.bt-experiencia :hover {
+  background-color: #00a59d;
+  color: #fff;
+}
+.bt-experiencia {
+  display: flex;
+  justify-content: space-around;
+}
 
-    }
+.temp-retorno-usuario button {
+  background-color: #f5f5f5;
+  color: #b5b5b5;
+  border-radius: 4pt;
+  border: 0;
+  width: 98pt;
+  height: 40pt;
+  margin-bottom: 25pt;
+}
 
-    .heart-circle{
-      height: 13.04pt;
-      width: 13.04pt;
-      margin-right: 4pt;
-    }
-    .fa-arrow-circle-o-left:before {
-        content: "\f190";
-         margin-right: 4pt;
-    }
-    .match-saidas{
-      color: #E28F94;
-    }
-    .menu-saidas {
-      color: #00A59D;
-    }
-    .menu-saidas i{
-      font-size: 13.3pt;
-    }
-    .match img{
-      height: 20pt;
-    }
-    .match {
-    display: flex;
-    align-items: center;
-    color: rgba(226, 143, 148, 1);
-    border: 0.5pt solid;
-    border-color: rgba(127, 127, 127, 0.6);
-    border-radius: 3pt;
-    width: 25%;
-    text-align: center;
-    justify-content: center;
-    font-size: 16pt;
-    }
-    .seus-match{
-      margin-left: 5pt;
-    }
-    .img-seus-matchs {
-      font-size: 10pt;
-    }
-    .fa-gratipay {
-        color: rgba(226, 143, 148, 1);
-      }
+.bt-temp :hover {
+  background-color: #00a59d;
+  color: #fff;
+}
 
-    .comprar {
-        background-color: rgba(0, 165, 157, 1);
-        border: 1pt solid;
-        border-radius: 4pt;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        width: 25%;
-        text-align: center;
-        justify-content: center;
-        height: 32pt;
-      }
-      .acao-match-comprar{
-        display: flex;
-        justify-content: space-around;
-      }
-      .robo-ajuda {
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 10px;
-      }
-    .link-comparacao a {
-      color: #00A59D;
-      
-    }
-    
-    .link-comparacao{
-      margin-top: 10pt;
-      font-size: 14pt;
-    }
-    .experiencia-usuario button {
-			background-color: #F5F5F5;
-			color: #B5B5B5;
-			border-radius: 	4pt;
-			border: 0;
-			width: 98pt;
-			height: 40pt;
-			margin-bottom: 25pt;
-
-		}
-		.bt-experiencia :hover {
-			background-color: #00A59D;
-			color: #fff;
-		}
-		.bt-experiencia {
-			display: flex;
-			justify-content: space-around;
-			
-		}
-
-		.temp-retorno-usuario button {
-			background-color: #F5F5F5;
-			color: #B5B5B5;
-			border-radius: 	4pt;
-			border: 0;
-			width: 98pt;
-			height: 40pt;			
-			margin-bottom: 25pt;
-
-		}
-
-		.bt-temp :hover {
-			background-color: #00A59D;
-			color: #fff;
-		}
-
-		.bt-temp {
-			display: flex;
-			justify-content: space-around;
-		}
-
-		.msg-apresenta {
-			font-size: 15pt;
-			color: #00A59D;
-			margin-top: 25pt;
-
-		}
-		
-		.detalhes-apresenta {
-			color: #B4B4B4;
-			font-size: 12pt;
-			text-align: left;
-		}
-
-		.box-conteudo-entrada i {
-			color: #00A59D;
-			font-size: 16pt;
-		}
-
-		.nome-usuario {
-			border-bottom: 1pt solid;
-			border-color: #00A59D;
-			padding-bottom: 5px;
-			margin-bottom: 35pt;
-		}
-		.digite-nome {
-			border: 0;
-			color: #CDCDCD;
-			font-size: 14pt;	
-			margin-left: 20pt;
-		}
-
-		.info-usuario {
-			color: #7F7F7F;
-		}
-		.perg-invest i {
-			margin-right: 8pt;
-
+<<<<<<< HEAD
+.bt-temp {
+  display: flex;
+  justify-content: space-around;
+}
+=======
 		}
     .investimento{
       color: #7F7F7F;
@@ -290,27 +246,64 @@ footer p {
       padding-left: 10pt;
       margin-left: 30pt;
     }
+>>>>>>> 5171ecfd149727e4a6410dcf9da990299fb1e9c9
 
-		.perg-temp i{
-			margin-right: 8pt;
+.msg-apresenta {
+  font-size: 15pt;
+  color: #00a59d;
+  margin-top: 25pt;
+}
 
-		}
+.detalhes-apresenta {
+  color: #b4b4b4;
+  font-size: 12pt;
+  text-align: left;
+}
 
-		.encontrar-robo button {
-			width: 100%;
-			background-color: #F5F5F5;
-			border-radius: 16pt;
-			height: 40pt;
-			border: 2pt solid;
-			border-color: #00A59D;
-			color: #7F7F7F;
+.box-conteudo-entrada i {
+  color: #00a59d;
+  font-size: 16pt;
+}
 
+<<<<<<< HEAD
+.nome-usuario {
+  border-bottom: 1pt solid;
+  border-color: #00a59d;
+  padding-bottom: 5px;
+  margin-bottom: 35pt;
+}
+.digite-nome {
+  border: 0;
+  color: #cdcdcd;
+  font-size: 14pt;
+  margin-left: 20pt;
+}
+=======
 		}
     .img-ajuda img {
         width: 74pt;
         padding-right: 25pt;
 
       }
+>>>>>>> 5171ecfd149727e4a6410dcf9da990299fb1e9c9
 
+.info-usuario {
+  color: #7f7f7f;
+}
+.perg-invest i {
+  margin-right: 8pt;
+}
 
+.perg-temp i {
+  margin-right: 8pt;
+}
 
+.encontrar-robo button {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 16pt;
+  height: 40pt;
+  border: 2pt solid;
+  border-color: #00a59d;
+  color: #7f7f7f;
+}

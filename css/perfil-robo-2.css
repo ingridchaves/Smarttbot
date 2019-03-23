@@ -225,6 +225,7 @@ footer p {
 .inscritos-img,
 .status-img {
   height: 8.5pt;
+  margin-left: 15%;
 }
 .resumo-robo {
   display: flex;
@@ -254,6 +255,11 @@ footer p {
 .icones {
   color: rgba(127, 127, 127, 1);
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
+  background-color: yellow;
 }
 .robo-esquerda,
 .robo-direita {
@@ -401,7 +407,6 @@ footer p {
 }
 .img-ajuda img {
   width: 74pt;
-
 }
 .img-ajuda {
   margin-right: 20pt;
