@@ -233,10 +233,20 @@ footer p {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .bt-temp {
   display: flex;
   justify-content: space-around;
 }
+=======
+		}
+    .investimento{
+      color: #7F7F7F;
+      height: 20pt;
+      padding-left: 10pt;
+      margin-left: 30pt;
+    }
+>>>>>>> 5171ecfd149727e4a6410dcf9da990299fb1e9c9
 
 .msg-apresenta {
   font-size: 15pt;
@@ -255,6 +265,7 @@ footer p {
   font-size: 16pt;
 }
 
+<<<<<<< HEAD
 .nome-usuario {
   border-bottom: 1pt solid;
   border-color: #00a59d;
@@ -267,6 +278,14 @@ footer p {
   font-size: 14pt;
   margin-left: 20pt;
 }
+=======
+		}
+    .img-ajuda img {
+        width: 74pt;
+        padding-right: 25pt;
+
+      }
+>>>>>>> 5171ecfd149727e4a6410dcf9da990299fb1e9c9
 
 .info-usuario {
   color: #7f7f7f;
